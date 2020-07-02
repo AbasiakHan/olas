@@ -70,11 +70,13 @@ body {
 }
 
 .header {
-  display: block;
+	margin-left: 0;
+  display: grid;
   position: fixed;
+	justify-content: center;
   top: 0;
-  width: 80%;
-  /* z-index: 20; */
+  width: 100%;
+  z-index: 20;
 }
 
 .header .header-upper {
@@ -85,6 +87,7 @@ body {
 }
 
 .header .header-announce {
+	width: 100%;
   display: block;
   text-align: center;
   background-color: var(--header-back);
@@ -110,7 +113,7 @@ body {
 }
 
 .header-logo a {
-  display: grid;
+  display: flex;
   background-color: transparent;
   line-height: 1.5;
   fill: #000000;
@@ -122,12 +125,12 @@ body {
   transform: 0.5s;
 }
 
-.header-logo > a {
+.header-logo a {
   color: #c7bcbc;
   display: inline-block;
   position: relative;
   text-decoration: none;
-  width: 100%;
+  width: 60%;
   /* z-index: 20; */
   padding-top: 0;
 }
@@ -137,8 +140,8 @@ body {
 }
 
 .icon .logo {
-  width: 70%;
-  height: 50px;
+  width: 50%;
+  height: 40px;
 }
 
 .icon svg {
