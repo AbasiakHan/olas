@@ -70,8 +70,8 @@ body {
 }
 
 .header {
-	margin-left: 0;
-  display: grid;
+	/* margin-left: 0;
+  display: grid; */
   position: fixed;
 	justify-content: center;
   top: 0;
