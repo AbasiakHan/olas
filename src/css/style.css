@@ -74,7 +74,7 @@ body {
   position: fixed;
   top: 0;
   width: 80%;
-  z-index: 20;
+  /* z-index: 20; */
 }
 
 .header .header-upper {
